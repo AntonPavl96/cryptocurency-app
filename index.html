@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container-fluid" id="headerDiv">
+        <h1>Crypto Currencies</h1>
+        <div class="container-fluid" id="nav-bar">
+            <div class="buttons-div">
+                <button class="btn btn-dark" id="homeBtn">Home</button>
+                <button class="btn btn-dark" id="reportsBtn">Live-Reports</button>
+                <button class="btn btn-dark" id="aboutBtn">About</button>
+            </div>
+            <div class="search-div">
+                <input type="text" class="form-control" placeholder="Search" id="searchInput">
+                <button class="btn btn-dark" id="searchBtn">Search</button>
+            </div>
+        </div>
+    </div>
+    
+    <img src="loadingGif.gif" alt="Loading Gif" class="loading">
+
+    <div class="popUpContainer">
+        <div class="popUpDiv"></div>
+    </div>
+
+    <div class="container" id="homeDiv"></div>
+
+    <div class="container" id="reportsDiv">
+        <h1>Error 404! Bonus mission not found.</h1>
+    </div>
+
+    <div class="container" id="aboutDiv">
+        <div class="card">
+            <img class="card-img-top" src="avatar.jpg" alt="Avatar image" id="avatar">
+            <div class="card-body">
+                <h4 class="card-title">Anton Pavliukevich</h4>
+                <p class="card-text">Age: 25</p>
+                <p class="card-text">Profession: Full stack developer</p>
+                <p class="card-text">Studied at: John Bryce Academy</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">The Project</h4>
+                <p class="card-text">A single page application that shows information about all the existing crypto-currencies.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
